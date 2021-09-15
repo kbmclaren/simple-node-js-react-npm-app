@@ -30,6 +30,7 @@ pipeline {
 }
 
 /* 
+    
     This image parameter (of the agent section’s docker parameter) downloads the node:lts-buster-slim Docker image (if it’s not already available on your machine) and runs this image as a separate container. This means that:
     You’ll have separate Jenkins and Node containers running locally in Docker.
 
